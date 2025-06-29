@@ -1,0 +1,20 @@
+{
+  "name": "com.keithen.noderedwebsocketclient",
+  "version": "1.0.0",
+  "displayName": "Node-RED WebSocket Client",
+  "description": "A Unity client for Node-RED WebSocket integration.",
+  "unity": "2019.4",
+  "author": {
+    "name": "Joey van Eijk",
+    "email": "joeyvaneijk@outlook.com",
+    "url": "https://github.com/Keithen-Entertainment/NodeRedWebSocketClient"
+  },
+  "keywords": [
+    "node-red",
+    "websocket",
+    "unity"
+  ],
+  "dependencies": {
+    "com.github.endel.nativewebsocket": "1.5.2"
+  }
+}
