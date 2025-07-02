@@ -7,8 +7,7 @@
 <code>public NodeRedWebSocketClient nodeRedWebSocketClient;</code> <br>
 - Then attach the NodeRedWebSocketClient in Unity to the property from the script. <br>
 - To listen to the websocket: <br>
-<code>
-void Start()
+<code>void Start()
 {
     nodeRedWebSocketClient.OnNodeRedMessage += HandleNodeRedMessage;
 }
@@ -16,13 +15,10 @@ void Start()
 private void HandleNodeRedMessage(string topic, string msg)
 {
     Debug.Log($"Received message from Node-RED: {topic}, {msg}");
-}
-</code> <br>
+}</code> <br>
 - To send a message to the node-red websocket use this: <br>
-<code>
-string jsonMessage = "{\"topic\":\"test\",\"msg\":{\"value\":\"Kaas gegeten\"}}";
-nodeRedWebSocketClient.SendJsonToNodeRedWebSocket(jsonMessage);
-</code>
+<code>string jsonMessage = "{\"topic\":\"test\",\"msg\":{\"value\":\"Kaas gegeten\"}}";
+nodeRedWebSocketClient.SendJsonToNodeRedWebSocket(jsonMessage);</code>
 
 
 
