@@ -14,5 +14,7 @@
     "websocket",
     "unity"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "com.github.endel.nativewebsocket": "1.5.2"
+  }
 }

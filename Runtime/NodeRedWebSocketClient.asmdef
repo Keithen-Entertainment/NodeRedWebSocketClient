@@ -1,15 +1,6 @@
 {
   "name": "NodeRedWebSocketClient",
   "references": [
-    "NativeWebSocket"
-  ],
-  "includePlatforms": [],
-  "excludePlatforms": [],
-  "allowUnsafeCode": false,
-  "overrideReferences": false,
-  "precompiledReferences": [],
-  "autoReferenced": true,
-  "defineConstraints": [],
-  "versionDefines": [],
-  "noEngineReferences": false
+    "endel.nativewebsocket"
+  ]
 }
